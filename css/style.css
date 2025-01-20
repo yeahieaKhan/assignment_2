@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =======================================================
+    Template Name: Kids Education
+    Created By: yeahiea khan
+    Website: 
+    Version: 1.0.0
+    Support: 
+========================================================= */
+
+
+
+/* 
+====================================
+[ CSS TABLE CONTENT ]
+------------------------------------
+    1.0 - General
+    2.0 - Typography
+    3.0 - shared style
+    4.0 - Header Area
+    5.0 - feature Area
+    6.0 - fact Area
+    7.0 - our-sponsors
+    12.0 - Footer Area
+   
+-------------------------------------
+[ END CSS TABLE CONTENT ]
+===================================== 
+*/
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-
+	  1.0 General
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+body{
+	background-color: #fff;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-
+	  2.0 Typography
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 25px;
+}
+h5{
+	font-size: 20px;
+}
+h6{
+	font-size: 18px;
+}
+p{
+	font-size: 20px;
+	color: #ddd;
+}
+img{
+  max-width: 100%;
+}
+/****____________________ 3.0 - shared style start_______________________*****/
+
+
+/****____________________ 3.0 - shared style end  _______________________*****/
+
+/****____________________ 4.0 - header area start  _______________________*****/
+/****____________________ 4.0 - header area end  _______________________*****/
+
+
+
+/****____________________ 4.0 - header area start  _______________________*****/
+/****____________________ 4.0 - header area end  _______________________*****/
