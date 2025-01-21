@@ -248,6 +248,7 @@ h2.title {
 .curriculum-items {
   text-align: center;
   padding: 15px;
+  border-radius: 20px;
   
 }
 .curricu-img {
