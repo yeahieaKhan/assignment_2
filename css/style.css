@@ -79,15 +79,14 @@ img{
   max-width: 100%;
 }
 /****____________________ 3.0 - shared style start_______________________*****/
-
-
-/****____________________ 3.0 - shared style end  _______________________*****/
-
-/****____________________ 4.0 - header area start  _______________________*****/
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/****____________________ 3.0 - shared style end  _______________________*****/
+
+/****____________________ 4.0 - header area start  _______________________*****/
 
 .top-menu {
   display: flex;
@@ -118,8 +117,24 @@ nav.menu-bar ul li a {
   text-decoration: none;
   margin: 0px 34px;
   font-size: 18px;
+  font-weight: bold;
 }
 
+a.nav-links-home {
+    color: orange;
+}
+
+a.nav-links-about {
+    color: skyblue;
+}
+
+a.nav-links-facilities {
+    color: #05D4DF;
+}
+
+a.nav-links-addmisstion {
+    color: chocolate;
+}
 .btn-primary button {
   padding: 9px 28px;
   border: none;
@@ -133,5 +148,12 @@ nav.menu-bar ul li a {
 
 
 
-/****____________________ 4.0 - header area start  _______________________*****/
-/****____________________ 4.0 - header area end  _______________________*****/
+/****____________________ 5.0 - banner area start  _______________________*****/
+
+/****____________________ 5.0 - banner area end  _______________________*****/
+
+
+
+
+/****____________________ 5.0 - banner area start  _______________________*****/
+/****____________________ 5.0 - banner area end  _______________________*****/
