@@ -30,4 +30,30 @@
     .banner-img {
         order: 1;
     }
+    /****____________________ 5.0 - banner area start  _______________________*****/
+
+    .curriculum-content{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .curriculum-items{
+        margin-bottom: 15px;
+    }
+    .slider-btn{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

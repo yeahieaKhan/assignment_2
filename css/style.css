@@ -123,19 +123,19 @@ nav.menu-bar ul li a {
   font-weight: bold;
 }
 
-a.nav-links-home {
+.nav-links-home {
     color: orange;
 }
 
-a.nav-links-about {
+.nav-links-about {
     color: skyblue;
 }
 
-a.nav-links-facilities {
+.nav-links-facilities {
     color: #05D4DF;
 }
 
-a.nav-links-addmisstion {
+.nav-links-addmisstion {
     color: chocolate;
 }
 .btn-primary button {
@@ -219,10 +219,76 @@ h2.banner-heading {
 .banner-btn button:hover{
   color: #fff !important;
 }
-/****____________________ 5.0 - banner area end  _______________________*****/
+/****____________________ 5.0 - header area end  _______________________*****/
 
+/****____________________ 6.0 - our-curriculum area start  _______________________*****/
+.our-curriculum{
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-overly {
+  background: #F7F7F7;
+}
 
+h2.title {
+  text-align: center;
+  padding-top: 20px;
+}
 
+.curriculum-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
 
-/****____________________ 5.0 - banner area start  _______________________*****/
+.curriculum-items {
+  text-align: center;
+  padding: 15px;
+  
+}
+.curricu-img {
+  max-width: 138px;
+  height: 138px;
+  margin: 0 auto;
+ 
+}
+
+.kinder-bg{
+  background: linear-gradient(to bottom, rgba(135, 206, 235, 0.2) , rgba(255, 255, 255, 1) );
+}
+.middle-bg{
+  background: linear-gradient(to bottom, rgba(245, 196, 80, 0.2) , rgba(255, 255, 255, 1) );
+}
+.elemey-bg{
+  background: linear-gradient(to bottom, rgba(162, 78, 235, 0.2) , rgba(255, 255, 255, 1) );
+}
+.curriculum-items h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.curriculum-items p {
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.curriculum-btn {
+  margin-top: 30px;
+}
+
+.curriculum-btn button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/****____________________ 5.0 - our-curriculum area end  _______________________*****/
 /****____________________ 5.0 - banner area end  _______________________*****/
