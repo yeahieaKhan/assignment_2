@@ -16,4 +16,18 @@
         border-bottom: 1px solid gray;
         padding-bottom: 20px;
     }
+/****____________________ 5.0 - banner area start  _______________________*****/
+    .banner-section{
+        padding: 50px 20px;
+    }
+    .banner-content{
+        flex-direction: column;
+    }
+    .banner-items{
+        order: 2;
+        text-align: center;
+    }
+    .banner-img {
+        order: 1;
+    }
 }

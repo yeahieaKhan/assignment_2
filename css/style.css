@@ -83,6 +83,9 @@ img{
   max-width: 1140px;
   margin: 0 auto;
 }
+.margin-top{
+  margin-top:15px ;
+}
 
 /****____________________ 3.0 - shared style end  _______________________*****/
 
@@ -150,6 +153,72 @@ a.nav-links-addmisstion {
 
 /****____________________ 5.0 - banner area start  _______________________*****/
 
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2.banner-heading {
+  font-size: 60px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.banner-items h2 {
+  font-size: 50px;
+}
+
+.banner-items h2 span {
+  color: #195edb;
+}
+
+.banner-content p {
+  color: #424242;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.banner-btn button {
+  margin-top: 30px;
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+
+.banner-btn button::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: #fff !important;
+  cursor: pointer;
+  background: rebeccapurple;
+  border-radius: 20px;
+  transition: width 0.5s, height 0.5s; 
+  z-index: 0;
+}
+.banner-btn button:hover::after{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: -1;
+ 
+}
+.banner-btn button:hover{
+  color: #fff !important;
+}
 /****____________________ 5.0 - banner area end  _______________________*****/
 
 
