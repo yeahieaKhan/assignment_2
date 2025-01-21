@@ -84,6 +84,51 @@ img{
 /****____________________ 3.0 - shared style end  _______________________*****/
 
 /****____________________ 4.0 - header area start  _______________________*****/
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: block;
+  color: #424242;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav-icons{
+  display: none;
+}
+nav.menu-bar ul {
+  display: flex;
+  list-style: none;
+}
+
+nav.menu-bar ul li a {
+  text-decoration: none;
+  margin: 0px 34px;
+  font-size: 18px;
+}
+
+.btn-primary button {
+  padding: 9px 28px;
+  border: none;
+  background: #b607ff;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
 /****____________________ 4.0 - header area end  _______________________*****/
 
 

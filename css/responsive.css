@@ -1,0 +1,19 @@
+@media screen and (max-width:576px) {
+    .nav-items,
+    .btn-primary,
+    .logo a{
+        display: none !important;
+    } 
+    .nav-icons{
+        display: block;
+        margin-right: 20px;
+    }  
+    .logo img{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .header-section{
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+    }
+}
