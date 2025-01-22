@@ -147,6 +147,7 @@ nav.menu-bar ul li a {
 
 .nav-links-addmisstion {
     color: chocolate;
+    cursor: pointer;
 }
 .btn-primary button {
   padding: 9px 28px;
@@ -155,8 +156,14 @@ nav.menu-bar ul li a {
   color: #fff;
   font-size: 20px;
   border-radius: 10px;
+  cursor: pointer;
 }
-
+.menu-bar ul li a{
+  transition: .5s;
+}
+.menu-bar ul li a:hover{
+  color: #580546;
+}
 /****____________________ 4.0 - header area end  _______________________*****/
 
 
