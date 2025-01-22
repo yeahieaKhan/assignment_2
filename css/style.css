@@ -339,6 +339,8 @@ h2.title {
 }
 .storirs-overlay {
   background: linear-gradient(to top, rgba(254, 163, 1, 0.4), rgba(255, 255, 255, .04) );
+  height: auto;
+  padding: 60px 0px 0px 60px;
   height: 130vh;
 }
 .storis-content {
