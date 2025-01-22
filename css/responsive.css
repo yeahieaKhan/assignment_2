@@ -69,8 +69,22 @@
     .storirs-overlay{
         padding: 0px 0px 0px 0px;
     }
+    .storry-more{
+        padding-bottom: 25px;
+    }
+    .storirs-overlay{
+        height: auto;
+    }
 
 
+    .foooter-content{
+        grid-template-columns: 1fr;
+    }
+   
+    footer.footer-section{
+        height: auto;
+        padding: 30px;
+    }
 
 
 

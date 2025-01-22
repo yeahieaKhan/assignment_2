@@ -199,35 +199,12 @@ h2.banner-heading {
   border-radius: 20px;
   position: relative;
   cursor: pointer;
-  overflow: hidden;
+  transition: .5s;
   
 }
 
-.banner-btn button::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 10px;
-  color: #fff !important;
-  cursor: pointer;
-  background: rebeccapurple;
-  border-radius: 20px;
-  transition: width 0.5s, height 0.5s; 
-  z-index: 0;
-}
-.banner-btn button:hover::after{
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  z-index: -1;
- 
-}
 .banner-btn button:hover{
-  color: #fff !important;
+  background: #580546;
 }
 /****____________________ 5.0 - header area end  _______________________*****/
 
@@ -335,6 +312,7 @@ h2.title {
   background-image: url("../assets/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  
   
 }
 .storirs-overlay {
@@ -459,4 +437,66 @@ h2.title {
   font-size: 18px;
   border-radius: 20px;
   font-weight: bold;
+  transition: .5s;
+}
+.story-btn button:hover{
+  background: #580546;
+}
+
+
+
+
+
+
+footer.footer-section {
+  background: #01ACFD;
+  align-items: center;display: flex;
+  gap: 30px;
+  padding: 50px 0px;
+}
+
+.foooter-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 98px;
+}
+
+
+.footer-contact ul {
+    list-style: none;
+}
+
+.footer-contact ul li a {
+    text-decoration: none;
+    line-height: 33px;
+    color: #fff;
+}
+
+.footer-contact h2 {
+    color: #fff;
+}
+
+.footer-social h2 {
+    color: #fff;
+}
+
+.footer-link {
+    margin: 37px 10px;
+}
+
+.footer-link img {
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #fff;
 }
