@@ -147,7 +147,7 @@ nav.menu-bar ul li a {
 
 .nav-links-addmisstion {
     color: chocolate;
-    cursor: pointer;
+  
 }
 .btn-primary button {
   padding: 9px 28px;
@@ -157,6 +157,10 @@ nav.menu-bar ul li a {
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
+  transition: .5s;
+}
+.btn-primary button:hover{
+  background: #01ACFD;
 }
 .menu-bar ul li a{
   transition: .5s;
@@ -214,6 +218,26 @@ h2.banner-heading {
   background: #580546;
 }
 /****____________________ 5.0 - header area end  _______________________*****/
+
+.main {
+  text-align: center;
+}
+
+.marq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headeing {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+.notices{
+  font-size: 20px;
+  color: #fff;
+}
 
 /****____________________ 6.0 - our-curriculum area start  _______________________*****/
 .our-curriculum{
@@ -278,6 +302,7 @@ h2.title {
 
 .curriculum-btn {
   margin-top: 30px;
+ 
 }
 
 .curriculum-btn button {
@@ -285,6 +310,7 @@ h2.title {
   background: none;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .slider-btn {
