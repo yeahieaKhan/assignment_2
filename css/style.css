@@ -86,6 +86,16 @@ img{
 .margin-top{
   margin-top:15px ;
 }
+.border-overlay {
+  content: '';
+  position: absolute;
+  top: 92%;
+  left: 10%;
+  background: #3CD8E8;
+  padding: 8px;
+  border-radius: 20px;
+  transition: .5s;
+}
 
 /****____________________ 3.0 - shared style end  _______________________*****/
 
@@ -225,11 +235,12 @@ h2.banner-heading {
 .our-curriculum{
   background-image: url("../assets/bg.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .bg-overly {
-  background: #F7F7F7;
+  background: rgba(0,0,0,0.1);
+  height: 110vh;
+  width: 100%;
 }
 
 h2.title {
@@ -251,6 +262,7 @@ h2.title {
   border-radius: 20px;
   
 }
+
 .curricu-img {
   max-width: 138px;
   height: 138px;
@@ -291,5 +303,158 @@ h2.title {
   font-weight: 500;
 }
 
+.slider-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 1200px;
+  gap: 20px;
+}
+
+.slider-arro {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border-radius: 50%;
+  background: orange;
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
+  transition: .5s;
+}
+.slider-arro:hover{
+  background: #b607ff;
+}
 /****____________________ 5.0 - our-curriculum area end  _______________________*****/
+
 /****____________________ 5.0 - banner area end  _______________________*****/
+.our-stories{
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.storirs-overlay {
+  background: linear-gradient(to top, rgba(254, 163, 1, 0.4), rgba(255, 255, 255, .04) );
+  height: 130vh;
+}
+.storis-content {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.stories-content {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 12px;
+}
+
+
+.storis-items {
+  width: 540px;
+  height: 630px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+
+
+
+.signle-stories-img img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.signle-stories-img {
+  position: relative;
+}
+
+
+.border-overlay:hover{
+  background: #b607ff;
+}
+
+
+.sigle-stories-content {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.sigle-stories-content h2 {
+  font-size: 20pz;
+}
+
+.signle-stories-description h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.signle-stories-description p {
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+
+.single-img2 {
+  position: relative;
+}
+
+.single-oberlay-2 {
+  width: 156px;
+  height: 35px;
+  transition: .5s;
+  top: 88%;
+  background: #95B226;
+}
+.single-oberlay-2:hover{
+  background: #580546 !important;
+}
+.single-oberlay-2 h4 {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+.sinle-overlay-3{
+  background: orange;
+}
+
+.stories-items-description {
+  margin-top: 36px;
+}
+
+
+.stories-items-description p {
+  font-size: 18px;
+  padding: 5px;
+  color: #000;
+}
+
+
+.stories-items {
+  background: #fff;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.storry-more {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.story-btn button {
+  cursor: pointer;
+  padding: 11px 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  font-weight: bold;
+}

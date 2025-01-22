@@ -42,11 +42,29 @@
     .slider-btn{
         display: none;
     }
+    .slider-btn{
+        display: none;
+    }
+    .bg-overly{
+        height: auto;
+    }
+
+    .storis-items{
+        display: none;
+    }
 
 
 
-
-
+    .single-oberlay-2 {
+        top: 85%;
+        text-align: center;
+    }
+    .storis-content{
+        padding: 20px;
+    }
+    .stories-items-description {
+        text-align: center;
+    }
 
 
 
